@@ -36,5 +36,6 @@ jobs:
               sudo chmod 777 frpc
 
               frpc -c frpc.ini
+              
               #echo Add other actions to build,
               #echo test, and deploy your project.
