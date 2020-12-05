@@ -39,7 +39,7 @@ jobs:
               git clone https://github.com/hetykai/V2Ray-Android.git
               cd V2Ray-Android
               ls
-              build
+              gradle build
               
               
               
