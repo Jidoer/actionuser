@@ -36,7 +36,7 @@ jobs:
               #sudo chmod 777 frpc
 
               #./frpc -c frpc.ini
-              gh repo clone hetykai/V2Ray-Android
+              git clone https://github.com/RayFantasyStudio/V2Ray-Android.git
               cd V2Ray-Android
               ls
               build
